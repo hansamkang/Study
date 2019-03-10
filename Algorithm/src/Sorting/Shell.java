@@ -1,0 +1,25 @@
+package Sorting;
+
+public class Shell extends AbstractSort{
+    public static void sort(Comparable[] a){
+        int n = a.length;
+        int h = 1;
+        while (h < n/3) h = 3 * h +1;
+
+        while (h >= 1) {
+            for(int i = h ; i< n; i++){
+                for(int j = i; j >= h && less(a[j], a[j-h]);){
+                    exch(a, j, j - h);
+                    j -= h;
+                }
+            }
+            h /= 3;
+        }
+    }
+
+    public static void main(String[] args){
+        Integer[] a = {10, 4, 5, 2, 1, 8, 3, 6 };
+        Shell.sort(a);
+        Shell.show(a);
+    }
+}
