@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="300" Width="500">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row ="0"  Margin ="10,10,10,10.6" RenderTransformOrigin="-2.908,0.989" >성명</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row ="1" Margin ="10,10.4,10,10" >나이</TextBlock>
+        <TextBox x:Name="TextBox1" Grid.Column="1" Grid.Row ="0" Margin = "10,10,9.6,9.6"></TextBox>
+        <TextBox x:Name="TextBox2" Grid.Column="1" Grid.Row ="1" Margin = "10,10.4,9.6,10"></TextBox>
+        <Button x:Name="btnYear" Grid.Column="1" Grid.Row="2" Margin ="10" Content ="출생년도" Click="BtnYear_Click"/>
     </Grid>
 </Window>

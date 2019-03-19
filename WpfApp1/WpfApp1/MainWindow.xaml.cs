@@ -24,5 +24,20 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void BtnYear_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.TextBox2.Text != "" || this.TextBox2.Text != "")
+            { 
+                MessageBox.Show("당신의 입력한 데이터는 " + this.TextBox1.Text + " 와 " + this.TextBox2.Text + "살 입니다");
+            }
+            else
+            {
+                MessageBox.Show("데이터를 입력하십시오");
+            }
+        }
+        
     }
+
+    
 }
