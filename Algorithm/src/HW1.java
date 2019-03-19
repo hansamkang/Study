@@ -1,0 +1,145 @@
+import java.io.*;
+import java.util.StringTokenizer;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+abstract class AbstractSort {
+    public static void sort(Comparable[] a){};
+
+    protected static boolean less(Comparable v, Comparable w)//v가 w다 작을때 true를 리턴
+    {
+        return v.compareTo(w) < 0;
+    }
+
+    protected static void exch(Comparable[] a , int i , int j) //Swap
+    {
+        Comparable t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+
+    protected static void show(Comparable[] a)
+    {
+        for (int i = 0 ; i < a.length; i++) System.out.print(a[i] +" "); // 내용 출력
+    }
+
+    protected static boolean isSorted(Comparable[] a)
+    {
+        for(int i = 1 ; i < a.length; i++)
+        {
+            if(less(a[i],a[i-1]))
+                return false;
+        }
+        return true;
+    }
+}
+
+class Selection extends AbstractSort{
+    public static void sort(Comparable[] a)
+    {
+        int n = a.length;
+        for(int i =0 ; i< n-1; i++){
+            int min = i;
+            for(int j = i+1; j < n; j++){
+                if(less(a[j],a[min])){
+                    min = j;
+                }
+            }
+            exch(a, i, min);
+        }
+        assert isSorted(a);
+    }
+}
+
+class Insertion extends AbstractSort{
+    public static void sort(Comparable[] a){
+        int n  = a.length;
+        for(int i = 1; i< n; i++)
+        {
+            for (int j = i; j > 0 && less(a[j], a[j-1]); j--){
+                exch(a, j, j-1);
+            }
+        }
+        assert isSorted(a);
+    }
+}
+
+class Shell extends AbstractSort{
+    public static void sort(Comparable[] a){
+        int n = a.length;
+        int h = 1;
+        while (h < n/3) h = 3 * h +1;
+
+        while (h >= 1) {
+            for(int i = h ; i< n; i++){
+                for(int j = i; j >= h && less(a[j], a[j-h]);){
+                    exch(a, j, j - h);
+                    j -= h;
+                }
+            }
+            h /= 3;
+        }
+    }
+}
+
+class Merge extends AbstractSort{
+    private static void merge(Comparable[] list, Comparable[] aux, int low, int mid, int high)
+    {
+        for (int k = low; k <= high; k++)
+        {
+            aux[k] = list[k];
+        }
+
+        // aux[] 배열을 비교하여 병합된 결과를 a[] 배열에 다시 저장
+
+        for (int i = low, k = low, q = mid+1; i <= high; i++) {
+            if (q > high || k <= mid && aux[k].compareTo(aux[q]) <= 0)
+                list[i] = aux[k++];
+            else
+                list[i] = aux[q++];
+        }
+    }
+
+    public static void sort(Comparable[] list){
+        Comparable[] aux = new Comparable[list.length];
+        sort(list,aux,0,list.length-1);
+    }
+
+    private static void sort(Comparable[] list, Comparable[] aux, int low, int high)
+    {
+        if (high <= low) return; //데이터 리스트의 원소가 1개라면 return
+
+        int mid = low + (high - low) / 2;
+        sort(list, aux, low, mid);
+        sort(list, aux, mid + 1, high);
+        merge(list, aux, low, mid, high);
+    }
+}
+
+public class HW1 {
+    public static void main(String [] args)  {
+        Scanner scan = new Scanner(System.in);
+        String inputFileName;
+        System.out.println("입력 파일 이름?");
+        inputFileName = scan.nextLine();    // 스캐너로 입력 받음
+        ArrayList<String> arrayList = new ArrayList<String>();
+
+        try {
+            FileReader file = new FileReader(inputFileName);
+            BufferedReader fileBuffer = new BufferedReader(file);
+            String line;
+            while((line = fileBuffer.readLine()) != null){
+                StringTokenizer stok = new StringTokenizer(line);
+                while(stok.hasMoreTokens()){
+                    arrayList.add(stok.nextToken());
+                }
+            }
+            fileBuffer.close();
+            file.close();
+        }catch(FileNotFoundException e){
+            System.out.println("파일을 찾을 수 없습니다. 프로그램을 종료합니다.");
+            System.exit(0);
+        }catch(IOException e){
+            System.out.println(e);
+        }
+
+    }
+}
