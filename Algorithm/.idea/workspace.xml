@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3c4884-9e70-4128-b615-e33a04662011" name="Default Changelist" comment="update sort !! [Shell]">
-      <change afterPath="$PROJECT_DIR$/src/Sorting/BottomUpMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/AbstractSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/AbstractSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/BottomUpMerge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/BottomUpMerge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/HW1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/HW1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Insertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Insertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Shell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Shell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/TopDownMerge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/TopDownMerge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WpfApp1/.vs/WpfApp1/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../WpfApp1/.vs/WpfApp1/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WpfApp1/.vs/WpfApp1/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../WpfApp1/.vs/WpfApp1/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WpfApp1/.vs/WpfApp1/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../WpfApp1/.vs/WpfApp1/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WpfApp1/WpfApp1/obj/Debug/MainWindow.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WpfApp1/WpfApp1/obj/Debug/WpfApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WpfApp1/WpfApp1/obj/Debug/WpfApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WpfApp1/WpfApp1/obj/Debug/WpfApp1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WpfApp1/WpfApp1/obj/Debug/WpfApp1.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WpfApp1/WpfApp1/obj/Debug/WpfApp1_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WpfApp1/WpfApp1/obj/Debug/WpfApp1_MarkupCompile.cache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,15 +39,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HW1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="199" column="23" lean-forward="true" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
+            <state relative-caret-position="226">
+              <caret line="196" column="26" lean-forward="true" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#AbstractSort#0" />
-                <element signature="class#Selection#0" />
-                <element signature="class#Insertion#0" />
                 <element signature="class#Shell#0" />
-                <element signature="class#TopDownMerge#0" />
                 <element signature="class#BottomUpMerge#0" />
               </folding>
             </state>
@@ -85,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sorting/Selection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="340">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -114,7 +101,6 @@
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/AbstractSort.java" />
         <option value="$PROJECT_DIR$/src/test.java" />
-        <option value="$PROJECT_DIR$/src/Sorting/Selection.java" />
         <option value="$PROJECT_DIR$/src/Sorting/AbstractSort.java" />
         <option value="$PROJECT_DIR$/src/Sorting/Counting.java" />
         <option value="$PROJECT_DIR$/src/Sorting/Radix.java" />
@@ -122,11 +108,12 @@
         <option value="$PROJECT_DIR$/src/Sorting/Shell.java" />
         <option value="$PROJECT_DIR$/src/Sorting/Insertion.java" />
         <option value="$PROJECT_DIR$/src/Sorting/BottomUpMerge.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/Selection.java" />
         <option value="$PROJECT_DIR$/src/HW1.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="474" />
     <option name="y" value="57" />
     <option name="width" value="1400" />
@@ -155,12 +142,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="HW1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -171,10 +152,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553002843732" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553007157162" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -323,24 +305,6 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HW1.java</url>
-          <line>163</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HW1.java</url>
-          <line>185</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HW1.java</url>
-          <line>179</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -416,13 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting/Selection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -437,17 +394,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting/Selection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HW1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="199" column="23" lean-forward="true" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
+        <state relative-caret-position="226">
+          <caret line="196" column="26" lean-forward="true" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#AbstractSort#0" />
-            <element signature="class#Selection#0" />
-            <element signature="class#Insertion#0" />
             <element signature="class#Shell#0" />
-            <element signature="class#TopDownMerge#0" />
             <element signature="class#BottomUpMerge#0" />
           </folding>
         </state>

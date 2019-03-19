@@ -88,8 +88,6 @@ class TopDownMerge extends AbstractSort{
             aux[k] = list[k];
         }
 
-        // aux[] 배열을 비교하여 병합된 결과를 a[] 배열에 다시 저장
-
         for (int i = low, k = low, q = mid+1; i <= high; i++) {
             if (q > high || k <= mid && aux[k].compareTo(aux[q]) <= 0)
                 list[i] = aux[k++];
@@ -141,7 +139,7 @@ public class HW1 {
         Scanner scan = new Scanner(System.in);
         String inputFileName;
         System.out.println("입력 파일 이름?");
-        inputFileName = scan.nextLine();    // 스캐너로 입력 받음
+        inputFileName = scan.nextLine();
         ArrayList<String> arrayList = new ArrayList<String>();
 
         try {
@@ -166,9 +164,9 @@ public class HW1 {
         System.out.println("1. 단어의 수 = "+arrayList.size());
 
         long startTime, endTime;
-        String [] Temp = new String[arrayList.size()];
 
         for(int i = 2 ; i<7; i++){
+            String [] Temp = new String[arrayList.size()];
             for(int j =0 ; j<arrayList.size(); j++){
                 Temp[j] = arrayList.get(j);
             }
@@ -202,9 +200,9 @@ public class HW1 {
                     BottomUpMerge.sort(Temp);
                     endTime = System.currentTimeMillis();
                     System.out.println("6. Bottom Up 합병 정렬: 정렬 여부"+ AbstractSort.isSorted(Temp)+", 소요시간 = " + (endTime-startTime) +"ms");
+                    break;
+                    //한글 테스트
             }
         }
-
-
     }
 }
