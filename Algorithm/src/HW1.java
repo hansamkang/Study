@@ -6,19 +6,19 @@ import java.util.Scanner;
 abstract class AbstractSort {
     public static void sort(Comparable[] a){};
 
-    protected static boolean less(Comparable v, Comparable w)//v가 w다 작을때 true를 리턴
+    protected static boolean less(Comparable v, Comparable w)
     {
         return v.compareTo(w) < 0;
     }
 
-    protected static void exch(Comparable[] a , int i , int j) //Swap
+    protected static void exch(Comparable[] a , int i , int j)
     {
         Comparable t = a[i]; a[i] = a[j]; a[j] = t;
     }
 
     protected static void show(Comparable[] a)
     {
-        for (int i = 0 ; i < a.length; i++) System.out.print(a[i] +" "); // 내용 출력
+        for (int i = 0 ; i < a.length; i++) System.out.print(a[i] +" ");
     }
 
     protected static boolean isSorted(Comparable[] a)
@@ -103,7 +103,7 @@ class TopDownMerge extends AbstractSort{
 
     private static void sort(Comparable[] list, Comparable[] aux, int low, int high)
     {
-        if (high <= low) return; //데이터 리스트의 원소가 1개라면 return
+        if (high <= low) return;
 
         int mid = low + (high - low) / 2;
         sort(list, aux, low, mid);
@@ -138,7 +138,7 @@ public class HW1 {
     public static void main(String [] args)  {
         Scanner scan = new Scanner(System.in);
         String inputFileName;
-        System.out.println("입력 파일 이름?");
+        System.out.println("Please Input file name");
         inputFileName = scan.nextLine();
         ArrayList<String> arrayList = new ArrayList<String>();
 
@@ -155,18 +155,18 @@ public class HW1 {
             fileBuffer.close();
             file.close();
         }catch(FileNotFoundException e){
-            System.out.println("파일을 찾을 수 없습니다. 프로그램을 종료합니다.");
+            System.out.println("Not Found File or Wrong input file name. Program exit.");
             System.exit(0);
         }catch(IOException e){
             System.out.println(e);
         }
 
-        System.out.println("1. 단어의 수 = "+arrayList.size());
+        System.out.println("1. Number of Words = "+arrayList.size());
 
         long startTime, endTime;
 
+        String [] Temp = new String[arrayList.size()];
         for(int i = 2 ; i<7; i++){
-            String [] Temp = new String[arrayList.size()];
             for(int j =0 ; j<arrayList.size(); j++){
                 Temp[j] = arrayList.get(j);
             }
@@ -175,33 +175,32 @@ public class HW1 {
                     startTime = System.currentTimeMillis();
                     Selection.sort(Temp);
                     endTime = System.currentTimeMillis();
-                    System.out.println("2. 선택정렬: 정렬 여부"+ AbstractSort.isSorted(Temp)+", 소요시간 = " + (endTime-startTime) +"ms");
+                    System.out.println("2. Selection Sort: Check Sorted = "+ AbstractSort.isSorted(Temp)+", Time = " + (endTime-startTime) +"ms");
                     break;
                 case 3:
                     startTime = System.currentTimeMillis();
                     Insertion.sort(Temp);
                     endTime = System.currentTimeMillis();
-                    System.out.println("3. 삽입정렬: 정렬 여부"+ AbstractSort.isSorted(Temp)+", 소요시간 = " + (endTime-startTime) +"ms");
+                    System.out.println("3. Insertion Sort: Check Sorted = "+ AbstractSort.isSorted(Temp)+", Time = " + (endTime-startTime) +"ms");
                     break;
                 case 4:
                     startTime = System.currentTimeMillis();
                     Shell.sort(Temp);
                     endTime = System.currentTimeMillis();
-                    System.out.println("4. 쉘 정렬: 정렬 여부"+ AbstractSort.isSorted(Temp)+", 소요시간 = " + (endTime-startTime) +"ms");
+                    System.out.println("4. Shell Sort: Check Sorted = "+ AbstractSort.isSorted(Temp)+", Time = " + (endTime-startTime) +"ms");
                     break;
                 case 5:
                     startTime = System.currentTimeMillis();
                     TopDownMerge.sort(Temp);
                     endTime = System.currentTimeMillis();
-                    System.out.println("5. Top Down 합병 정렬: 정렬 여부"+ AbstractSort.isSorted(Temp)+", 소요시간 = " + (endTime-startTime) +"ms");
+                    System.out.println("5. TopDownMerge Sort: Check Sorted = "+ AbstractSort.isSorted(Temp)+", Time = " + (endTime-startTime) +"ms");
                     break;
                 case 6:
                     startTime = System.currentTimeMillis();
                     BottomUpMerge.sort(Temp);
                     endTime = System.currentTimeMillis();
-                    System.out.println("6. Bottom Up 합병 정렬: 정렬 여부"+ AbstractSort.isSorted(Temp)+", 소요시간 = " + (endTime-startTime) +"ms");
+                    System.out.println("6. BottomUpMerge Sort: Check Sorted = "+ AbstractSort.isSorted(Temp)+", Time = " + (endTime-startTime) +"ms");
                     break;
-                    //한글 테스트
             }
         }
     }

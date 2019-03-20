@@ -25,6 +25,7 @@ public abstract class AbstractSort {
             if(less(a[i],a[i-1]))
                 return false;
         }
+        System.out.println("테스트");
         return true;
     }
 }
