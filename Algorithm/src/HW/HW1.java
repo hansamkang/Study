@@ -138,9 +138,9 @@ class BottomUpMerge extends  AbstractSort{
 
 public class HW1 {
     public static void main(String [] args)  {
+        System.out.println("Please Input file name");
         Scanner scan = new Scanner(System.in);
         String inputFileName;
-        System.out.println("Please Input file name");
         inputFileName = scan.nextLine();
         ArrayList<String> arrayList = new ArrayList<String>();
 

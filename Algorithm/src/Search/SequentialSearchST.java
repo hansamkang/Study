@@ -2,11 +2,11 @@ package Search;
 import java.util.ArrayList;
 
 public class SequentialSearchST <K, V>{
-    private NomalNode<K, V> first;  // 첫 번째 노드에 대한 참조를 유지. 초기값 = null
+    private Node<K, V> first;  // 첫 번째 노드에 대한 참조를 유지. 초기값 = null
     int n;  // 연결 리스트의 노드 수를 유지. 초기값 0
 
     public V get(K key){
-        for(NomalNode<K,V> x = first; x != null; x = x.next)
+        for(Node<K,V> x = first; x != null; x = x.next)
         {
             if(key.equals(x.key))
                 return x.value; // 검색 성공
@@ -15,12 +15,12 @@ public class SequentialSearchST <K, V>{
         return null;    //검색한 값 없음
     }
     public void put(K key, V value){
-        for(NomalNode<K, V> x = first; x!= null; x = x.next)
+        for(Node<K, V> x = first; x!= null; x = x.next)
             if(key.equals(x.key)){  // 키가 잇을 경우, 값만 변경
                 x.value = value;
                 return;
             }
-        first = new NomalNode<K,V>(key, value, first);
+        first = new Node<K,V>(key, value, first);
             n++;
     }
     public void delete(K key){
@@ -29,7 +29,7 @@ public class SequentialSearchST <K, V>{
             n--;
             return;
         }
-        for(NomalNode<K, V> x = first; x.next != null; x = x.next){ // 삭제할 노드를 검색
+        for(Node<K, V> x = first; x.next != null; x = x.next){ // 삭제할 노드를 검색
             if(key.equals(x.next.key)){
                 x.next  = x.next.next;
                 return;
@@ -38,7 +38,7 @@ public class SequentialSearchST <K, V>{
     }
     public Iterable<K> keys(){
         ArrayList<K> keyList = new ArrayList<K>(n);
-        for(NomalNode<K, V> x = first; x!= null; x = x.next )
+        for(Node<K, V> x = first; x!= null; x = x.next )
             keyList.add(x.key);
         return keyList;
     }
