@@ -235,6 +235,9 @@ public class HW2 {
         Iterator<String> it1= bst1.keys().iterator();
         Iterator<String> it2= bst2.keys().iterator();
 
+        if(it1 == null) { System.out.println("파일 1에 비교할 key가 없습니다."); System.exit(0);}
+        if(it2 == null) { System.out.println("파일 2에 비교할 key가 없습니다."); System.exit(0);}
+
         String keyA = it1.next();
         String keyB = it2.next();
 

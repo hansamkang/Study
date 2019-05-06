@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ac3c4884-9e70-4128-b615-e33a04662011" name="Default Changelist" comment="update sort !! [Shell]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/HW/HW1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/HW/HW1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Search/NomalNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Search/SequentialSearchST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Search/SequentialSearchST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Search/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Search/TestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW/HW1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW/HW1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Search/NomalNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Search/SequentialSearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search/SequentialSearchST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Search/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search/TestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/HW/HW2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/HW/HW2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW/HW2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW/HW2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Search/TestClient.java">
+        <entry file="file://$PROJECT_DIR$/src/HW/tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="21" column="76" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="76" />
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,14 +27,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HW/HW2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="224" column="30" lean-forward="true" selection-start-line="224" selection-start-column="30" selection-end-line="224" selection-end-column="30" />
+            <state relative-caret-position="2736">
+              <caret line="322" column="15" selection-start-line="322" selection-start-column="15" selection-end-line="322" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#Node#0" />
                 <element signature="method#Node#0;class#Node#0" />
                 <element signature="method#Node#1;class#Node#0" />
                 <element signature="method#treeSearch#0;class#BST#0" />
@@ -49,7 +42,6 @@
                 <element signature="method#resetSize#0;class#BST#0" />
                 <element signature="method#keys#0;class#BST#0" />
                 <element signature="method#inorder#0;class#BST#0" />
-                <element signature="e#2636#2756#1" />
                 <element signature="method#delete#0;class#BST#0" />
                 <element signature="method#isLeaf#0;class#BST#0" />
                 <element signature="method#isTwoNode#0;class#BST#0" />
@@ -67,32 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/HashMap.java">
+        <entry file="file://$PROJECT_DIR$/src/HW/HW3E.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10754">
-              <caret line="611" column="45" selection-start-line="611" selection-start-column="45" selection-end-line="611" selection-end-column="45" />
-              <folding>
-                <element signature="e#24282#24283#0" expanded="true" />
-                <element signature="e#24347#24348#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Search/FerquencyCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,69 +71,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Search/Node.java">
+        <entry file="file://$PROJECT_DIR$/src/HW/HW3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Search/SequentialSearchST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="170">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
-                <element signature="method#get#0;class#SequentialSearchST#0" />
-                <element signature="method#put#0;class#SequentialSearchST#0" />
-                <element signature="method#delete#0;class#SequentialSearchST#0" />
-                <element signature="method#keys#0;class#SequentialSearchST#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Search/BST.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/LSD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-              <folding>
-                <element signature="method#treeSearch#0;class#BST#0" />
-                <element signature="method#get#0;class#BST#0" />
-                <element signature="method#resetSize#0;class#BST#0" />
-                <element signature="method#keys#0;class#BST#0" />
-                <element signature="method#inorder#0;class#BST#0" />
-                <element signature="method#delete#0;class#BST#0" />
-                <element signature="method#isLeaf#0;class#BST#0" />
-                <element signature="method#isTwoNode#0;class#BST#0" />
-                <element signature="method#min#0;class#BST#0" />
-                <element signature="method#min#1;class#BST#0" />
-                <element signature="method#max#0;class#BST#0" />
-                <element signature="method#relink#0;class#BST#0" />
-                <element signature="method#floor#0;class#BST#0" />
-                <element signature="method#floor#1;class#BST#0" />
-                <element signature="method#rank#0;class#BST#0" />
-                <element signature="method#select#0;class#BST#0" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Search/BinarySearchST.java">
+        <entry file="file://$PROJECT_DIR$/small.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="method#resize#0;class#BinarySearchST#0" />
-                <element signature="method#search#0;class#BinarySearchST#0" />
-                <element signature="method#get#0;class#BinarySearchST#0" />
-                <element signature="method#put#0;class#BinarySearchST#0" />
-                <element signature="method#delete#0;class#BinarySearchST#0" />
-                <element signature="method#keys#0;class#BinarySearchST#0" />
-              </folding>
+            <state relative-caret-position="19">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -171,13 +103,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HW/HW1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1786">
-              <caret line="150" column="27" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
+            <state relative-caret-position="1862">
+              <caret line="151" column="16" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
                 <element signature="class#TopDownMerge#0" />
                 <element signature="class#BottomUpMerge#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/StringTokenizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6099">
+              <caret line="348" selection-start-line="348" selection-end-line="348" />
             </state>
           </provider>
         </entry>
@@ -232,6 +175,10 @@
         <option value="$PROJECT_DIR$/src/Search/TestClient.java" />
         <option value="$PROJECT_DIR$/src/HW/HW1.java" />
         <option value="$PROJECT_DIR$/src/HW/HW2.java" />
+        <option value="$PROJECT_DIR$/src/HW/tests.java" />
+        <option value="$PROJECT_DIR$/src/HW/HW3E.java" />
+        <option value="$PROJECT_DIR$/src/HW/HW3.java" />
+        <option value="$PROJECT_DIR$/src/String/LSD.java" />
       </list>
     </option>
   </component>
@@ -246,8 +193,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,32 +211,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HW" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HW" type="462c0819:PsiDirectoryNode" />
-              <item name="HW1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HW" type="462c0819:PsiDirectoryNode" />
-              <item name="HW2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Sorting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -299,7 +220,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554534274201" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557150973581" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -328,8 +250,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="HW2" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW.HW2" />
+    <configuration name="HW3" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW.HW3" />
       <module name="Algorithm" />
       <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
@@ -342,6 +264,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC,SHOW_FIELDS" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -404,8 +329,8 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.15511727" />
+      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.15191898" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -413,13 +338,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3373102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30477223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010661" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -466,6 +391,24 @@
           <line>23</line>
           <properties />
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Search/BST.java</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW/tests.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW/HW3E.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -559,29 +502,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Search/AbstractSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting/Selection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/la.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -608,16 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-249">
           <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Search/TestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="76" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,21 +587,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Search/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="760">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
           <folding>
             <element signature="method#treeSearch#0;class#BST#0" />
             <element signature="method#get#0;class#BST#0" />
+            <element signature="method#put#0;class#BST#0" />
             <element signature="method#resetSize#0;class#BST#0" />
             <element signature="method#keys#0;class#BST#0" />
             <element signature="method#inorder#0;class#BST#0" />
-            <element signature="method#delete#0;class#BST#0" />
             <element signature="method#isLeaf#0;class#BST#0" />
             <element signature="method#isTwoNode#0;class#BST#0" />
             <element signature="method#min#0;class#BST#0" />
             <element signature="method#min#1;class#BST#0" />
             <element signature="method#max#0;class#BST#0" />
-            <element signature="method#relink#0;class#BST#0" />
             <element signature="method#floor#0;class#BST#0" />
             <element signature="method#floor#1;class#BST#0" />
             <element signature="method#rank#0;class#BST#0" />
@@ -709,25 +624,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HW/HW1.java">
+    <entry file="file://$PROJECT_DIR$/src/Sorting/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="150" column="27" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search/AbstractSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/la.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#TopDownMerge#0" />
-            <element signature="class#BottomUpMerge#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HW/tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HW/HW2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="224" column="30" lean-forward="true" selection-start-line="224" selection-start-column="30" selection-end-line="224" selection-end-column="30" />
+        <state relative-caret-position="2736">
+          <caret line="322" column="15" selection-start-line="322" selection-start-column="15" selection-end-line="322" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#Node#0" />
             <element signature="method#Node#0;class#Node#0" />
             <element signature="method#Node#1;class#Node#0" />
             <element signature="method#treeSearch#0;class#BST#0" />
@@ -736,7 +675,6 @@
             <element signature="method#resetSize#0;class#BST#0" />
             <element signature="method#keys#0;class#BST#0" />
             <element signature="method#inorder#0;class#BST#0" />
-            <element signature="e#2636#2756#1" />
             <element signature="method#delete#0;class#BST#0" />
             <element signature="method#isLeaf#0;class#BST#0" />
             <element signature="method#isTwoNode#0;class#BST#0" />
@@ -749,6 +687,61 @@
             <element signature="method#rank#0;class#BST#0" />
             <element signature="method#select#0;class#BST#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HW/HW3E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/small.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HW/HW1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="151" column="16" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="class#TopDownMerge#0" />
+            <element signature="class#BottomUpMerge#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/StringTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6099">
+          <caret line="348" selection-start-line="348" selection-end-line="348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HW/HW3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/LSD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
