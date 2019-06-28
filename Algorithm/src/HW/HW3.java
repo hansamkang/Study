@@ -36,7 +36,7 @@ class GoodsSet implements Comparator<GoodsSet>{
     }
 }
 
-public class HW3 {
+public class  HW3 {
     public static void main(String [] args){
         System.out.print("Please Input(file name, k, Confidence, Support) : ");
         Scanner sc = new Scanner(System.in);

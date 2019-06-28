@@ -18,6 +18,10 @@ public class LSD {
             for(int i = 0; i< N; i++)
                 a[i] = aux[i];
         }
+    }
 
+    public static void main(String [] args){
+        String [] A= {"aaa", "bab", "cac", "dad", "eee", "fff", "ggg", "hhh", "efe", "gsa" };
+        sort(A, 3);
     }
 }
