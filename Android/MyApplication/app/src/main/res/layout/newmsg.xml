@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_margin="5pt"
+        />
+
+    <TextView
+        android:id="@+id/mText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toLeftOf="@id/liner2"
+        android:text="새로운 메세지가 도착하였습니다."
+        />
+
+    <TextView
+        android:id="@+id/mText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/mText1"
+        android:layout_toLeftOf="@id/liner2"
+        android:text="메시지 내용"
+        android:textSize="10pt"
+        />
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        >
+
+        <Button
+            android:id="@+id/mButton1"
+            android:text="보기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/mButton2"
+            android:text="수정"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mButton1"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

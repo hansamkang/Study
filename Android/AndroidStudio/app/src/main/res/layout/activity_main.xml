@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    // 상단 Page(FL)
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+        // FirstPage(LL)
+        <LinearLayout
+            android:id="@+id/FisrtPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="visible"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Page"
+                android:textSize="22pt"
+                />
+        </LinearLayout>
+
+        // SecondPage(LL)
+        <LinearLayout
+            android:id="@+id/SecondPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="invisible"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Second Page"
+                android:textSize="22pt"
+                />
+        </LinearLayout>
+
+        // ThirdPage(TL)
+        <TableLayout
+            android:id="@+id/ThirdPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:stretchColumns="1"
+            >
+
+            <TableRow>
+                <TextView
+                    android:text="URL:"
+                    android:textSize="10pt"
+                    />
+                <EditText
+                    android:layout_span="4"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:layout_column="3"
+                    android:text="취소"
+                    />
+                <Button
+                    android:text="확인"
+                    />
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+
+    // 하단 페이지 (LL)
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0"
+        android:padding="1pt"
+        >
+
+        // First Button
+        <Button
+            android:id="@+id/FirstButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FirstPage" />
+
+        // Second Button
+        <Button
+            android:id="@+id/SecondButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Second Page" />
+
+        // Third Button
+        <Button
+            android:id="@+id/ThirdButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Third Page" />
+    </LinearLayout>
+
+</LinearLayout>
